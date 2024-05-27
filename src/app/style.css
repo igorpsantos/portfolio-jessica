@@ -1,0 +1,262 @@
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+    background-color: #f9f3f5;
+    /* Cor de fundo mais suave */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container-header {
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-img {
+    border-radius: 40px;
+    padding: 20px;
+}
+
+footer {
+    /* background: #e85a71; */
+    /* Cor principal para cabeçalho e rodapé */
+    color: #000;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+div ul {
+    list-style: none;
+}
+
+div ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+div ul li a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1px #e85a71 solid;
+}
+
+section {
+    flex: 1;
+    padding: 20px 0;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: auto;
+}
+
+.projeto-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: calc(33.33% - 20px);
+    /* 33.33% de largura para cada card, subtraindo a margem */
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.projeto-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.projeto-card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.projeto-card p {
+    font-size: 1em;
+    color: #666;
+}
+
+.container {
+    overflow: auto;
+    /* Para conter os cards dentro do contêiner */
+}
+
+.about-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.about-card p {
+    padding: 10px;
+    font-size: 1em;
+    color: #666;
+}
+
+.title-border {
+    width: 30%;
+    border-bottom: 5px #e85a71 solid;
+}
+
+.post-card {
+    padding: 5px;
+    margin-bottom: 10px;
+    width: calc(33.33% - 20px);
+    /* 33.33% de largura para cada card, subtraindo a margem */
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
