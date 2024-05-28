@@ -35,7 +35,7 @@ function App() {
             <section id="posts">
                 <div className="container">
                     <h2 className="title-border">Meus Posts</h2>
-                    <div className='row justify-content-center p-2'>
+                    <div className='row justify-content-start p-2'>
                         <PostCard url="https://www.instagram.com/p/CQtUIAxDItPBgn4YFOvitvqapEemi9MK3H-Mpw0/?igsh=MXVxbnFnOTJ0cGR5cg%3D%3D&img_index=1"/>
                         <PostCard url="https://www.instagram.com/p/CREeqV5jQ3h/?img_index=1"/>
                         <PostCard url="https://www.instagram.com/p/CRROVXdjMjE/?img_index=1"/>
