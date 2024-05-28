@@ -7,7 +7,9 @@ import { InstagramEmbed } from 'react-social-media-embed';
 
 function PostCard({ url }) {
     return (
-        <InstagramEmbed url={url} width={328} />
+        <div className='col-12 col-md-4'>   
+            <InstagramEmbed url={url} width={328} />
+        </div>
     );
 }
 

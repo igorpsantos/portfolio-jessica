@@ -6,15 +6,17 @@ import SobreMim from './about';
 import './style.css';
 import projeto1Image from "../public/images/projeto1.jpeg";
 import projeto2Image from "../public/images/projeto2.jpeg";
+// Bootstrap CSS
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
     return (
         <div>
-            <Header />
+            <Header showLinks={true} />
             <section id="projetos">
                 <div className="container">
                     <h2 className="title-border">Projetos de Moda</h2>
-                    <div className="projeto-cards">
+                    <div className="row justify-content-center">
                         <ProjetoCard
                             nome="Projeto de moda indumentária"
                             descricao="Trabalho realizado no 1º período de Design de Moda."
@@ -33,17 +35,12 @@ function App() {
             <section id="posts">
                 <div className="container">
                     <h2 className="title-border">Meus Posts</h2>
-                    <div className="post-card">
+                    <div className='row justify-content-center p-2'>
                         <PostCard url="https://www.instagram.com/p/CQtUIAxDItPBgn4YFOvitvqapEemi9MK3H-Mpw0/?igsh=MXVxbnFnOTJ0cGR5cg%3D%3D&img_index=1"/>
-                    </div>
-                    <div className="post-card">
                         <PostCard url="https://www.instagram.com/p/CREeqV5jQ3h/?img_index=1"/>
-                    </div>
-                    <div className="post-card">
                         <PostCard url="https://www.instagram.com/p/CRROVXdjMjE/?img_index=1"/>
-                    </div>
-                    <div className="post-card">
                         <PostCard url="https://www.instagram.com/p/CQyiZnAjJLR/?img_index=1" />
+                        <PostCard url="https://www.instagram.com/p/C7eMaDeuS6I/" />
                     </div>
                 </div>
             </section>

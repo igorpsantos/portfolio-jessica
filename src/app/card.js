@@ -5,11 +5,15 @@ import Link from 'next/link'
 
 function ProjetoCard({ nome, descricao, imagem, slug }) {
     return (
-        <div className="projeto-card">
-            <Image src={imagem} alt={nome} width="300" height="300" />
-            <h3>{nome}</h3>
-            <p>{descricao}</p>
-            <Link href={`project/${slug}`}>Ver mais</Link>
+        <div className="col-12 col-md-6 m-2">
+            <div className="card">
+                <Image className='card-img-top' src={imagem} alt={nome} width="300" height="300" />
+                <div className="card-body">
+                    <h5 className="card-title">{nome}</h5>
+                    <p className="card-text">{descricao}</p>
+                    <Link className='btn btn-primary' href={`project/${slug}`}>Ver mais</Link>
+                </div>
+            </div>
         </div>
     );
 }
